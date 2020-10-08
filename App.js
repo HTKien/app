@@ -7,13 +7,14 @@ import Header from './components/Header';
 import Friend from './components/Friend';
 import AllFriends from './components/AllFriends';
 import SuggestionFriend from './components/SuggestionFriend';
-
+import Popup from './components/Popup';
 
 
 export default function App() {
+
   return (
     <View style={styles.container}>
-        <AllFriends></AllFriends>
+      <AllFriends></AllFriends>
  
     </View>
   );
