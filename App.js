@@ -5,12 +5,16 @@ import Login from './components/Login';
 import CreatAcount from './components/CreatAcount';
 import Header from './components/Header';
 import Friend from './components/Friend';
+import AllFriends from './components/AllFriends';
+import SuggestionFriend from './components/SuggestionFriend';
+
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-        <Friend></Friend>
+        <AllFriends></AllFriends>
+ 
     </View>
   );
 }
@@ -21,10 +25,12 @@ const styles = StyleSheet.create({
     
     
    // backgroundColor: "#f4fbd2",
-    marginTop: 20
+    marginTop: 20,
+    
     
     
   },
   
   
 });
+
